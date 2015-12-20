@@ -19,10 +19,11 @@
 }
 
 /*::::::::::::::::::::*/;
-.text{
+.high{
     text-align: center;
     padding: 4% 10%;
     line-height: 30px;
+    width: 10%;
 
 }
 
