@@ -1,0 +1,11 @@
+@font-face{
+    font-family:Stanberry;
+    font-style:normal;
+    font-weight:normal;
+    src: url(../fonts.css/Stanberry.ttf);
+}
+.text{
+    font-family:Stanberry;
+    font-size: 10%;
+    color: 	#FFDA71;								
+}
