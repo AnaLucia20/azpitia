@@ -1,3 +1,8 @@
+ul.nav.navbar-nav.tipo_1-nav {
+    padding: 0% 35%;}
+.navbar-collapse.collapse{
+	background-color: #a4b912;
+}
 a:hover{
 	text-decoration: none;   
 }
@@ -5,9 +10,9 @@ a{
 	text-decoration: none;
 	color:#a4b912 ;
 }
-
 #video a{
-	color: #096e61;
+	color: black;
+	font-family:Stanberry;
 }
 .btn {
     width: 12%;
@@ -38,7 +43,7 @@ h3, h2{
 }
 .ub{
 	position: fixed;
-	top: 1%;
+	top: -2%;
 	right: 1%;
 	z-index: 21;
 
@@ -107,7 +112,7 @@ h2,{
 }
 .tam{
 	font-size: 24px;
-    padding: 6% 12%;
+    padding: 9% 12%;
 }
 
 #contact{
@@ -187,14 +192,14 @@ h2,{
 }
 .inlineb{
 	position: absolute;
-	top: 40%;
+	top: 48%;
 	left:11%;
 	font-family:Stanberry;
 }
 .in2{
 	margin-top: 2%;
 	position: absolute;
-	top: 52%;
+	top: 58%;
 	left:11%;
 	font-family:Stanberry;
 }
@@ -202,7 +207,7 @@ h2,{
 .in3{
 	margin-top: 2%;
 	position: absolute;
-	top: 70%;
+	top: 74%;
 	left:11%;
 	font-family:Stanberry;
 }
@@ -215,28 +220,35 @@ h2,{
 .in5{
 	margin-top: 2%;
 	position: absolute;
-	top: 4%;
+	top: 51%;
 	left:11%;
 }
 .in6{
 	margin-top: 2%;
 	position: absolute;
-	top: 38%;
+	top: 68%;
 	left:11%;
 }
 .in7{
 	margin-top: 2%;
 	position: absolute;
-	top: 71%;
+	top: 85%;
 	left:11%;
 }
 .box{
-	margin-top: 12%;
+	margin-top: 0%;
 }
 .box1{
-	margin-top: 18%;
+	margin-top: 25%;
 }
 .size{
 	height: 241px;
     width: 100%;
+}
+.fcolor{
+	background-color: #096e61;
+}
+.pa{
+	padding: 1%;
+	margin-top: 4%;
 }
