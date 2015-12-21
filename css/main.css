@@ -1,41 +1,60 @@
 
 .btn {
-    width: 10%;
+    width: 12%;
     padding: 1%;
-    background-color: #a4b912
+    background-color: #a4b912;
+    border:  1.8px solid white;
 }
 .a , .b , .c {
 	position: absolute;
-	top: 9%;
+	top: 60%;
 }
 .a{
-	right: 62%;
+	right: 60%;
 }
 .b{
-	right: 46%;
+	right: 44%;
 }
 .c{
 	left: 60%;
 }
-
+.letra{
+	font-family:Stanberry;
+}
 /*::::::::::::::::::::*/;
-.high{
-    text-align: center;
-    padding: 4% 10%;
-    line-height: 30px;
-    width: 10%;
+h3, h2{
+	font-family:Stanberry;
+	margin: 0%;
+}
+.ub{
+	position: fixed;
+	top: 1%;
+	right: 1%;
+	z-index: 21;
 
 }
-
+#hola{
+	font-family:Stanberry;
+	font-size: 1em;
+	padding: 5% 19%;
+    line-height: 2;
+}
 /*places:::::::::::::::::::::::::::::::::*/
+
 h2{
 	color: #096e61;
 }
 .mt{
 	margin-top:5%;
 }
+.mt-2{
+	margin-top: 2%;
+}
 .mb{
 	margin-bottom: 2%;
+}
+.mb-10{
+	margin-bottom: 10%;
 }
 .all{
 	margin:2% 0% 5%;
@@ -44,21 +63,71 @@ h2{
 	margin: 8% 0%;
 }
 .nota{
-	background-color:#FED100 ;
-	padding: 2%;
+	padding: 1% 3%;
+	border-style: solid;
+    border:  double  #096e61;
 
+}
+a.over:hover a.size:hover{
+	color: gray;
+	font-size: 10%;
+	cursor: pointer;
 }
 
 /*clima::::::::.*/
+#clima{
+	background-image: url("../img/clima.jpg");
+    background-repeat: no-repeat;
+    height: 246px;
+    background-size: 100%;
+    border-top: 45px solid #096e61;
+    border-bottom: 45px solid #096e61;
+    margin-top: 5%;
+}
 
-.all1{
-	margin:11% 0% 5%;
+/********* */
+
+#contact{
+	background-color: #a4b912;
+	margin: 0%;
+
 }
-.choose{
-	background-color: white;
-	padding: 10% 5% 15%;
+.color{
+	color: white;
+    padding: 15% 30%;
+    font-size: 1.5em;
 }
-.box-color{
-	background-color:#24282E;
-	padding: 8%;
+.colory{
+
+}
+.circle{
+ 	border-radius:#48649F;
+    background-color: blue;
+    width: 6%;
+    height: 32px;
+}
+.circle1{
+	margin-top: 2%;
+	border-radius:#E62117;
+    background-color: blue;
+    width: 6%;
+    height: 32px;
+}
+.inlineb{
+	position: absolute;
+	top: 20%;
+	left:11%;
+}
+.in2{
+	margin-top: 2%;
+	position: absolute;
+	top: 40%;
+	left:11%;
+}
+hr{
+	border: 2px solid #a4b912;
+}
+.size{
+	height: 241px;
+    width: 100%;
 }
