@@ -1,4 +1,13 @@
-
+a:hover{
+	text-decoration: none;   
+}
+a{
+	text-decoration: none;
+	color:#a4b912 ;
+}
+#video a{
+	color: #096e61;
+}
 .btn {
     width: 12%;
     padding: 1%;
@@ -41,7 +50,7 @@ h3, h2{
 }
 /*places:::::::::::::::::::::::::::::::::*/
 
-h2{
+h2,{
 	color: #096e61;
 }
 .mt{
@@ -68,10 +77,22 @@ h2{
     border:  double  #096e61;
 
 }
-a.over:hover a.size:hover{
-	color: gray;
+.h:hover{
+	color: #096e61;
 	font-size: 10%;
 	cursor: pointer;
+}
+.btn-green{
+	margin-top: 7%;
+    border-bottom: 5px solid #a4b912;
+    width: 100%;
+}
+.btn-green:hover{
+	border-bottom: 5px solid #096e61 ;
+
+}
+.green{
+	color: #a4b912;
 }
 
 /*clima::::::::.*/
@@ -124,9 +145,7 @@ a.over:hover a.size:hover{
 	top: 40%;
 	left:11%;
 }
-hr{
-	border: 2px solid #a4b912;
-}
+
 .size{
 	height: 241px;
     width: 100%;
