@@ -97,17 +97,18 @@ h2,{
 }
 
 /*clima::::::::.*/
-#clima{
-	background-image: url("../img/clima.jpg");
-    background-repeat: no-repeat;
-    height: 246px;
-    background-size: 100%;
-    border-top: 45px solid #096e61;
+.back{
+	width:100%;
+	border-top: 45px solid #096e61;
     border-bottom: 45px solid #096e61;
-    margin-top: 5%;
+   	background-color:#a4b912;
+   	padding:0% 10%;
+   	height: 240px;
 }
-
-/********* */
+.tam{
+	font-size: 24px;
+    padding: 6% 12%;
+}
 
 #contact{
 	background-color: #a4b912;
@@ -128,6 +129,34 @@ h2,{
 	color: white;
 	font-size: 1.5em;
 	padding: 15% 24%;
+}
+.tw{
+	color: white;
+	font-size: 1.5em;
+	padding: 15% 24%;
+}
+.point{
+	color: white;
+	font-size: 1.5em;
+	padding: 15% 33%;
+}
+.phone{
+	color: white;
+	font-size: 1.5em;
+	padding: 15% 27%;
+}
+.g{
+	color: white;
+    font-size: 1.3em;
+    padding: 19% 24%;
+}
+
+.c-gray{
+	margin-top: 2%;
+	border-radius:50px;
+    background-color: #848484;
+    width: 6%;
+    height: 32px;
 }
 .circle{
  	border-radius:50px;
@@ -152,28 +181,61 @@ h2,{
 .circle3{
 	margin-top: 2%;
 	border-radius:50px;
-    background-color: #81DAF5;
+    background-color: #28A9E0;
     width: 6%;
     height: 32px;
 }
 .inlineb{
 	position: absolute;
-	top: 5	%;
+	top: 40%;
 	left:11%;
+	font-family:Stanberry;
 }
 .in2{
 	margin-top: 2%;
 	position: absolute;
-	top: 23%;
+	top: 52%;
 	left:11%;
+	font-family:Stanberry;
 }
+
 .in3{
 	margin-top: 2%;
 	position: absolute;
-	top: 49%;
+	top: 70%;
+	left:11%;
+	font-family:Stanberry;
+}
+.in4{
+	margin-top: 2%;
+	position: absolute;
+	top: 87%;
 	left:11%;
 }
-
+.in5{
+	margin-top: 2%;
+	position: absolute;
+	top: 4%;
+	left:11%;
+}
+.in6{
+	margin-top: 2%;
+	position: absolute;
+	top: 38%;
+	left:11%;
+}
+.in7{
+	margin-top: 2%;
+	position: absolute;
+	top: 71%;
+	left:11%;
+}
+.box{
+	margin-top: 12%;
+}
+.box1{
+	margin-top: 18%;
+}
 .size{
 	height: 241px;
     width: 100%;
